@@ -1,3 +1,0 @@
-[sceptre.resolvers]
-amiresolver = amiresolver:CustomResolver
-

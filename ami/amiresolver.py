@@ -8,7 +8,6 @@ class CustomResolver(Resolver):
     def __init__(self, *args, **kwargs):
         super(CustomResolver, self).__init__(*args, **kwargs)
         self.args = ast.literal_eval(self.argument) # process input
-
     def resolve(self):
         """
         resolve is the method called by Sceptre. It should carry out the work
@@ -22,7 +21,7 @@ class CustomResolver(Resolver):
         :param stack: The associated stack of the resolver.
         :type stack: sceptre.stack.Stack
         """
-        client = boto3.client('ec2', region_name=self.environment_config['region'])
+        client = boto3.client('ec2', region_name="eu-west-1")
 
         filters = [{
             'Name': 'name',

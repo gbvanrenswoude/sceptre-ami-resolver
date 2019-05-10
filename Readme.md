@@ -10,8 +10,9 @@ Run
 ```
 sceptre --var-file config/testaccount/amivars.yml  create teststack
 ```
-
-
+```
+sudo pip uninstall amiresolver
+```
 Resolvers
 =========
 
