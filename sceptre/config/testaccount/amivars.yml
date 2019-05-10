@@ -1,0 +1,7 @@
+hvm1604filters:
+  aminame: "*ssd/ubuntu-xenial-16.04-amd64-server*"
+  amiowner: "099720109477"
+  amiarch: "x86_64"
+  amistate: "available"
+  amirootdevicetype: "ebs"
+  amivirttype: "hvm"

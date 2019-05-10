@@ -1,3 +1,17 @@
+Build
+=========
+```bash
+sudo python setup.py install
+```
+
+Run
+=========
+
+```
+sceptre --var-file config/testaccount/amivars.yml  create teststack
+```
+
+
 Resolvers
 =========
 

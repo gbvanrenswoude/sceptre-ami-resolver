@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     name='ami_resolver',
-    py_modules=['ami_resolver'],
+    py_modules=['amiresolver'],
     entry_points={
         'sceptre.resolvers': [
-            'ami_resolver = ami_resolver:CustomResolver',
+            'amiresolver = amiresolver:CustomResolver',
         ],
     }
 )

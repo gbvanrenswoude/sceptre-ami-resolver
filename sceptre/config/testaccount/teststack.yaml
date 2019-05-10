@@ -1,0 +1,5 @@
+template_path: teststack/teststack.yml.j2
+parameters:
+  Env: "test"
+  AMIID: !ami_resolver "{{ var.hvm1604filters }}"
+  InstanceType: t2.nano

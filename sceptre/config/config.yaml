@@ -1,0 +1,5 @@
+# this file is environment config. You can create these files on each level of the environment tree. Read https://sceptre.cloudreach.com/latest/docs/environment_config.html
+# Here generic variables are declared relevant for all stacks across our bank environments
+project_code: "test"
+region: eu-west-1
+template_key_prefix: sceptretest

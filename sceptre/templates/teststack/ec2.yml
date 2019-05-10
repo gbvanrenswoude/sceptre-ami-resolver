@@ -1,0 +1,10 @@
+  TestEC2Instance:
+      Type: AWS::EC2::Instance
+      Properties:
+          ImageId: !Ref AMIID
+          InstanceType: !Ref InstanceType
+          BlockDeviceMappings:
+          -
+            DeviceName: /dev/sda1
+            Ebs:
+              VolumeSize: 8

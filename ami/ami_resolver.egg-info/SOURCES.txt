@@ -1,0 +1,8 @@
+README.md
+amiresolver.py
+setup.py
+ami_resolver.egg-info/PKG-INFO
+ami_resolver.egg-info/SOURCES.txt
+ami_resolver.egg-info/dependency_links.txt
+ami_resolver.egg-info/entry_points.txt
+ami_resolver.egg-info/top_level.txt
